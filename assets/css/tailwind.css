@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .4s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
+.overflow-dots{
+  text-overflow:ellipsis;
+}
+.disable-selection {
+  -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer */
+-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+-webkit-user-select: none; /* Chrome, Safari, and Opera */
+-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}

@@ -1,0 +1,26 @@
+{
+  "name": "nuxtgameapp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jpolstre/nuxtgameapp.git",
+  "description": "My best Nuxt.js project",
+  "author": "jpolstre",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "predeploy": "npm run generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.0.0",
+    "vue-easy-lightbox": "^0.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "gh-pages": "^2.1.1"
+  }
+}
